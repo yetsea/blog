@@ -13,6 +13,7 @@ mkdir -p /volume1/docker/jitsi/config/{web,transcripts,prosody/config,prosody/pr
 cd /volume1/docker/jitsi
 wget $(curl -s https://api.github.com/repos/jitsi/docker-jitsi-meet/releases/latest | grep 'zip' | cut -d\" -f4)
 7z x <filename>
+cd /volume1/docker/jitsi/<filename>
 cp env.example .env
 ./gen-passwords.sh
 ```
