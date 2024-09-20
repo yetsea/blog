@@ -61,4 +61,4 @@ Forward Port: 443
 ```
 sudo docker compose up -d
 ```
-10. Now I'm able to start Jitsi Meet at https://jitsi.my-quick-connect-id.synology.me/ and everything works fine.
+10. Now I'm able to start Jitsi Meet from my home network at https://jitsi.my-quick-connect-id.synology.me/ and everything works fine.
