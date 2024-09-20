@@ -3,7 +3,7 @@ https://www.virtualconfusion.net/jitsi-meet-docker-new-install-2023/
 https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-docker/
 
 1. SSH into my Synology and create a folder for jitsi
-```
+```bash
 mkdir /volume1/docker/jitsi # root folder for jitsi
 mkdir /volume1/docker/jitsi/config # folder for config
 mkdir -p /volume1/docker/jitsi/config/{web,transcripts,prosody/config,prosody/prosody-plugins-custom,jicofo,jvb,jigasi,jibri}
