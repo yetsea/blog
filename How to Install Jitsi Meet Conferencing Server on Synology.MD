@@ -23,7 +23,7 @@ CONFIG=/volume1/docker/jitsi/config
 ENABLE_AUTH=0 # since I use jitsi in my own network
 PUBLIC_URL=https://jitsi.my-quick-connect-id.synology.me
 JVB_ADVERTISE_IPS=192.168.1.XXX # This setting deprecates DOCKER_HOST_ADDRESS
-:q:TZ=America/Los_Angeles
+TZ=America/Los_Angeles
 JVB_COLIBRI_PORT=28080 # To mitigate an docker start failure due to the default 8080 port being used already
 ```
 
