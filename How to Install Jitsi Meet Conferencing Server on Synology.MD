@@ -36,6 +36,7 @@ sudo docker compose up -d
 DISABLE_HTTPS=1 # since I'll use Synology reverse proxy for HTTPS offloading
 ```
 7. Update my Synology Reverse Proxy Setting
+```
 Reverse Proxy Name: jitsi
 Source:
   Protocol: HTTPS
@@ -45,7 +46,9 @@ Destination:
   Protocol: HTTP
   Hostname: 192.168.1.XXX
   Port: 8000
+```
 8. Update port forwarding rules in my gateway (UDM Pro)
+```
 Port Forwarding Rule Name: jitsi
 Interface: WAN
 From: Limited
@@ -53,6 +56,7 @@ Source: 192.168.1.0/24
 Port: 443
 Forward IP: 192.168.1.XXX
 Forward Port: 443
+```
 9. Start the Jitsi docker container
 ```
 sudo docker compose up -d
