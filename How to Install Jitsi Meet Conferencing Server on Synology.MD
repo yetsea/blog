@@ -27,7 +27,7 @@ TZ=America/Los_Angeles
 JVB_COLIBRI_PORT=28080 # To mitigate an docker start failure due to the default 8080 port being used already
 ```
 
-4. Start the Jitsi docker container
+4. Start the Jitsi docker container (TODO check if adding the -p <Project Name> parameter will add it to Project in Container Manager UI.)
 ```
 sudo docker compose up -d
 ```
